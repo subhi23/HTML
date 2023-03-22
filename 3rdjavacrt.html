@@ -1,0 +1,27 @@
+<html>
+<head>
+<center><h2>Odd or Even</h2>
+ </center></head>
+
+<body>
+<script>
+let arr=[];
+var even=[];
+var odd=[];
+
+for (let i=1; i<11; i++) {
+      arr.push(i);
+}
+for(let j=0; j<arr.length; j++) {
+  if(j%2==0) {
+  even.push(j);
+}
+else{
+   odd.push(j);
+}}
+document.write("Even numbers;",even);
+document.write("<br />");
+document.write("odd numbers; ",odd);
+</script>
+</body>
+</html>
